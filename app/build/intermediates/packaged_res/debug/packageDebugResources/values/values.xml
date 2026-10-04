@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="white">#FFFFFFFF</color>
+    <string name="app_name">RapidTech</string>
+    <string name="gcm_defaultSenderId" translatable="false">897100800261</string>
+    <string name="google_api_key" translatable="false">AIzaSyD5gUOrBj6eblhYS5z81F61mue1KBW_NKQ</string>
+    <string name="google_app_id" translatable="false">1:897100800261:android:81a82c8ec94a58fe56576c</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyD5gUOrBj6eblhYS5z81F61mue1KBW_NKQ</string>
+    <string name="google_storage_bucket" translatable="false">rapidtech-b5205.firebasestorage.app</string>
+    <string name="project_id" translatable="false">rapidtech-b5205</string>
+    <style name="Theme.RapidTech" parent="Theme.Material3.DayNight.NoActionBar">
+        
+    </style>
+</resources>

@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <EditText
+            android:id="@+id/etDate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Date" />
+
+        <EditText
+            android:id="@+id/etReportNo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Report Number"/>
+
+        <EditText
+            android:id="@+id/etRegion"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Region" />
+
+        <EditText
+            android:id="@+id/etArea"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Area" />
+
+        <EditText
+            android:id="@+id/etLocation"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Location" />
+
+        <EditText
+            android:id="@+id/etEngineer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Engineer" />
+
+        <EditText
+            android:id="@+id/etContact"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Contact" />
+
+        <EditText
+            android:id="@+id/etCustomer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Customer" />
+
+        <EditText
+            android:id="@+id/etMachineModel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Machine Model" />
+
+        <EditText
+            android:id="@+id/etSerialNo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Serial Number" />
+
+        <EditText
+            android:id="@+id/etInstallDate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Install Date" />
+
+        <EditText
+            android:id="@+id/etProblem"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Problem" />
+
+        <EditText
+            android:id="@+id/etAction"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Action" />
+
+        <EditText
+            android:id="@+id/etSpare"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Spare Parts" />
+
+        <EditText
+            android:id="@+id/etVoltage"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Voltage" />
+
+        <EditText
+            android:id="@+id/etCurrent"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Current" />
+
+        <EditText
+            android:id="@+id/etEngineerRemarks"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Engineer Remarks" />
+
+        <EditText
+            android:id="@+id/etCustomerRemarks"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Customer Remarks" />
+
+        <EditText
+            android:id="@+id/etSignature"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Engineer Signature" />
+
+        <EditText
+            android:id="@+id/etCustomerSignature"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Customer Signature" />
+
+        <Button
+            android:id="@+id/btnSubmit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Generate PDF"
+            android:layout_marginTop="16dp"
+            android:backgroundTint="#2962FF"
+            android:textColor="#FFFFFF" />
+
+        <Button
+            android:id="@+id/btnShare"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Share PDF"
+            android:layout_marginTop="10dp"
+            android:backgroundTint="#00C853"
+            android:textColor="#FFFFFF" />
+
+    </LinearLayout>
+
+</ScrollView>

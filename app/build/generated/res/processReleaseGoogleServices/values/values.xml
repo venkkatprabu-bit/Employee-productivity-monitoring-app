@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="gcm_defaultSenderId" translatable="false">897100800261</string>
+    <string name="google_api_key" translatable="false">AIzaSyD5gUOrBj6eblhYS5z81F61mue1KBW_NKQ</string>
+    <string name="google_app_id" translatable="false">1:897100800261:android:81a82c8ec94a58fe56576c</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyD5gUOrBj6eblhYS5z81F61mue1KBW_NKQ</string>
+    <string name="google_storage_bucket" translatable="false">rapidtech-b5205.firebasestorage.app</string>
+    <string name="project_id" translatable="false">rapidtech-b5205</string>
+</resources>

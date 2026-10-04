@@ -1,0 +1,289 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.rapidtech"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="30"
+9        android:targetSdkVersion="36" />
+10
+11    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+11-->C:\Users\Venkkat\AndroidStudioProjects\RapidTech\app\src\main\AndroidManifest.xml:4:5-81
+11-->C:\Users\Venkkat\AndroidStudioProjects\RapidTech\app\src\main\AndroidManifest.xml:4:22-78
+12    <uses-permission android:name="android.permission.INTERNET" />
+12-->C:\Users\Venkkat\AndroidStudioProjects\RapidTech\app\src\main\AndroidManifest.xml:5:5-66
+12-->C:\Users\Venkkat\AndroidStudioProjects\RapidTech\app\src\main\AndroidManifest.xml:5:22-64
+13
+14    <!-- Although the *SdkVersion is captured in gradle build files, this is required for non gradle builds -->
+15    <!-- <uses-sdk android:minSdkVersion="21"/> -->
+16    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+16-->[com.google.firebase:firebase-storage:21.0.0] C:\Users\Venkkat\.gradle\caches\9.2.1\transforms\c0af61371aeb0ecb4308e5171303195d\workspace\transformed\firebase-storage-21.0.0\AndroidManifest.xml:23:5-79
+16-->[com.google.firebase:firebase-storage:21.0.0] C:\Users\Venkkat\.gradle\caches\9.2.1\transforms\c0af61371aeb0ecb4308e5171303195d\workspace\transformed\firebase-storage-21.0.0\AndroidManifest.xml:23:22-76
+17
+18    <permission
+18-->[androidx.core:core:1.13.1] C:\Users\Venkkat\.gradle\caches\9.2.1\transforms\9223bb9a44198febb55cf5f46535b64e\workspace\transformed\core-1.13.1\AndroidManifest.xml:22:5-24:47
+19        android:name="com.example.rapidtech.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+19-->[androidx.core:core:1.13.1] C:\Users\Venkkat\.gradle\caches\9.2.1\transforms\9223bb9a44198febb55cf5f46535b64e\workspace\transformed\core-1.13.1\AndroidManifest.xml:23:9-81
+20        android:protectionLevel="signature" />
+20-->[androidx.core:core:1.13.1] C:\Users\Venkkat\.gradle\caches\9.2.1\transforms\9223bb9a44198febb55cf5f46535b64e\workspace\transformed\core-1.13.1\AndroidManifest.xml:24:9-44
+21
+22    <uses-permission android:name="com.example.rapidtech.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+22-->[androidx.core:core:1.13.1] C:\Users\Venkkat\.gradle\caches\9.2.1\transforms\9223bb9a44198febb55cf5f46535b64e\workspace\transformed\core-1.13.1\AndroidManifest.xml:26:5-97
+22-->[androidx.core:core:1.13.1] C:\Users\Venkkat\.gradle\caches\9.2.1\transforms\9223bb9a44198febb55cf5f46535b64e\workspace\transformed\core-1.13.1\AndroidManifest.xml:26:22-94
+23
+24    <application
+24-->C:\Users\Venkkat\AndroidStudioProjects\RapidTech\app\src\main\AndroidManifest.xml:7:5-45:19
+25        android:allowBackup="true"
+25-->C:\Users\Venkkat\AndroidStudioProjects\RapidTech\app\src\main\AndroidManifest.xml:8:9-35
+26        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+26-->[androidx.core:core:1.13.1] C:\Users\Venkkat\.gradle\caches\9.2.1\transforms\9223bb9a44198febb55cf5f46535b64e\workspace\transformed\core-1.13.1\AndroidManifest.xml:28:18-86
+27        android:debuggable="true"
+28        android:extractNativeLibs="false"
+29        android:label="RapidTech"
+29-->C:\Users\Venkkat\AndroidStudioProjects\RapidTech\app\src\main\AndroidManifest.xml:9:9-34
+30        android:supportsRtl="true"
+30-->C:\Users\Venkkat\AndroidStudioProjects\RapidTech\app\src\main\AndroidManifest.xml:10:9-35
+31        android:testOnly="true"
+32        android:theme="@style/Theme.RapidTech" >
+32-->C:\Users\Venkkat\AndroidStudioProjects\RapidTech\app\src\main\AndroidManifest.xml:11:9-47
+33        <activity android:name="com.example.rapidtech.EmployeeListActivity" />
+33-->C:\Users\Venkkat\AndroidStudioProjects\RapidTech\app\src\main\AndroidManifest.xml:12:9-13:51
+33-->C:\Users\Venkkat\AndroidStudioProjects\RapidTech\app\src\main\AndroidManifest.xml:13:13-49
+34        <activity android:name="com.example.rapidtech.AddEmployeeActivity" />
+34-->C:\Users\Venkkat\AndroidStudioProjects\RapidTech\app\src\main\AndroidManifest.xml:14:9-15:50
+34-->C:\Users\Venkkat\AndroidStudioProjects\RapidTech\app\src\main\AndroidManifest.xml:15:13-48
+35        <activity android:name="com.example.rapidtech.AttendanceHistoryActivity" />
+35-->C:\Users\Venkkat\AndroidStudioProjects\RapidTech\app\src\main\AndroidManifest.xml:16:9-17:56
+35-->C:\Users\Venkkat\AndroidStudioProjects\RapidTech\app\src\main\AndroidManifest.xml:17:13-54
+36        <activity
+36-->C:\Users\Venkkat\AndroidStudioProjects\RapidTech\app\src\main\AndroidManifest.xml:18:9-20:40
+37            android:name="com.example.rapidtech.AttendanceActivity"
+37-->C:\Users\Venkkat\AndroidStudioProjects\RapidTech\app\src\main\AndroidManifest.xml:19:13-47
+38            android:exported="false" />
+38-->C:\Users\Venkkat\AndroidStudioProjects\RapidTech\app\src\main\AndroidManifest.xml:20:13-37
+39        <activity android:name="com.example.rapidtech.ReportsHistoryActivity" />
+39-->C:\Users\Venkkat\AndroidStudioProjects\RapidTech\app\src\main\AndroidManifest.xml:21:9-60
+39-->C:\Users\Venkkat\AndroidStudioProjects\RapidTech\app\src\main\AndroidManifest.xml:21:19-57
+40        <activity android:name="com.example.rapidtech.ServiceReportActivity" />
+40-->C:\Users\Venkkat\AndroidStudioProjects\RapidTech\app\src\main\AndroidManifest.xml:22:9-59
+40-->C:\Users\Venkkat\AndroidStudioProjects\RapidTech\app\src\main\AndroidManifest.xml:22:19-56
+41        <activity android:name="com.example.rapidtech.AdminActivity" />
+41-->C:\Users\Venkkat\AndroidStudioProjects\RapidTech\app\src\main\AndroidManifest.xml:23:9-51
+41-->C:\Users\Venkkat\AndroidStudioProjects\RapidTech\app\src\main\AndroidManifest.xml:23:19-48
+42        <activity android:name="com.example.rapidtech.EmployeeActivity" />
+42-->C:\Users\Venkkat\AndroidStudioProjects\RapidTech\app\src\main\AndroidManifest.xml:24:9-54
+42-->C:\Users\Venkkat\AndroidStudioProjects\RapidTech\app\src\main\AndroidManifest.xml:24:19-51
+43        <activity android:name="com.example.rapidtech.LoginActivity" />
+43-->C:\Users\Venkkat\AndroidStudioProjects\RapidTech\app\src\main\AndroidManifest.xml:25:9-51
+43-->C:\Users\Venkkat\AndroidStudioProjects\RapidTech\app\src\main\AndroidManifest.xml:25:19-48
+44        <activity
+44-->C:\Users\Venkkat\AndroidStudioProjects\RapidTech\app\src\main\AndroidManifest.xml:26:9-34:20
+45            android:name="com.example.rapidtech.MainActivity"
+45-->C:\Users\Venkkat\AndroidStudioProjects\RapidTech\app\src\main\AndroidManifest.xml:27:13-41
+46            android:exported="true" >
+46-->C:\Users\Venkkat\AndroidStudioProjects\RapidTech\app\src\main\AndroidManifest.xml:28:13-36
+47            <intent-filter>
+47-->C:\Users\Venkkat\AndroidStudioProjects\RapidTech\app\src\main\AndroidManifest.xml:29:13-33:29
+48                <action android:name="android.intent.action.MAIN" />
+48-->C:\Users\Venkkat\AndroidStudioProjects\RapidTech\app\src\main\AndroidManifest.xml:30:17-69
+48-->C:\Users\Venkkat\AndroidStudioProjects\RapidTech\app\src\main\AndroidManifest.xml:30:25-66
+49
+50                <category android:name="android.intent.category.LAUNCHER" />
+50-->C:\Users\Venkkat\AndroidStudioProjects\RapidTech\app\src\main\AndroidManifest.xml:32:17-77
+50-->C:\Users\Venkkat\AndroidStudioProjects\RapidTech\app\src\main\AndroidManifest.xml:32:27-74
+51            </intent-filter>
+52        </activity>
+53
+54        <provider
+55            android:name="androidx.core.content.FileProvider"
+55-->C:\Users\Venkkat\AndroidStudioProjects\RapidTech\app\src\main\AndroidManifest.xml:37:13-62
+56            android:authorities="com.example.rapidtech.provider"
+56-->C:\Users\Venkkat\AndroidStudioProjects\RapidTech\app\src\main\AndroidManifest.xml:38:13-60
+57            android:exported="false"
+57-->C:\Users\Venkkat\AndroidStudioProjects\RapidTech\app\src\main\AndroidManifest.xml:39:13-37
+58            android:grantUriPermissions="true" >
+58-->C:\Users\Venkkat\AndroidStudioProjects\RapidTech\app\src\main\AndroidManifest.xml:40:13-47
+59            <meta-data
+59-->C:\Users\Venkkat\AndroidStudioProjects\RapidTech\app\src\main\AndroidManifest.xml:41:13-43:54
+60                android:name="android.support.FILE_PROVIDER_PATHS"
+60-->C:\Users\Venkkat\AndroidStudioProjects\RapidTech\app\src\main\AndroidManifest.xml:42:17-67
+61                android:resource="@xml/file_paths" />
+61-->C:\Users\Venkkat\AndroidStudioProjects\RapidTech\app\src\main\AndroidManifest.xml:43:17-51
+62        </provider>
+63        <provider
+63-->[androidx.emoji2:emoji2:1.3.0] C:\Users\Venkkat\.gradle\caches\9.2.1\transforms\c742028d6ca311bf3fa03fad16987552\workspace\transformed\emoji2-1.3.0\AndroidManifest.xml:24:9-32:20
+64            android:name="androidx.startup.InitializationProvider"
+64-->[androidx.emoji2:emoji2:1.3.0] C:\Users\Venkkat\.gradle\caches\9.2.1\transforms\c742028d6ca311bf3fa03fad16987552\workspace\transformed\emoji2-1.3.0\AndroidManifest.xml:25:13-67
+65            android:authorities="com.example.rapidtech.androidx-startup"
+65-->[androidx.emoji2:emoji2:1.3.0] C:\Users\Venkkat\.gradle\caches\9.2.1\transforms\c742028d6ca311bf3fa03fad16987552\workspace\transformed\emoji2-1.3.0\AndroidManifest.xml:26:13-68
+66            android:exported="false" >
+66-->[androidx.emoji2:emoji2:1.3.0] C:\Users\Venkkat\.gradle\caches\9.2.1\transforms\c742028d6ca311bf3fa03fad16987552\workspace\transformed\emoji2-1.3.0\AndroidManifest.xml:27:13-37
+67            <meta-data
+67-->[androidx.emoji2:emoji2:1.3.0] C:\Users\Venkkat\.gradle\caches\9.2.1\transforms\c742028d6ca311bf3fa03fad16987552\workspace\transformed\emoji2-1.3.0\AndroidManifest.xml:29:13-31:52
+68                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+68-->[androidx.emoji2:emoji2:1.3.0] C:\Users\Venkkat\.gradle\caches\9.2.1\transforms\c742028d6ca311bf3fa03fad16987552\workspace\transformed\emoji2-1.3.0\AndroidManifest.xml:30:17-75
+69                android:value="androidx.startup" />
+69-->[androidx.emoji2:emoji2:1.3.0] C:\Users\Venkkat\.gradle\caches\9.2.1\transforms\c742028d6ca311bf3fa03fad16987552\workspace\transformed\emoji2-1.3.0\AndroidManifest.xml:31:17-49
+70            <meta-data
+70-->[androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\Venkkat\.gradle\caches\9.2.1\transforms\8a7093a75ff285cab0f3797a00614280\workspace\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:29:13-31:52
+71                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+71-->[androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\Venkkat\.gradle\caches\9.2.1\transforms\8a7093a75ff285cab0f3797a00614280\workspace\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:30:17-78
+72                android:value="androidx.startup" />
+72-->[androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\Venkkat\.gradle\caches\9.2.1\transforms\8a7093a75ff285cab0f3797a00614280\workspace\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:31:17-49
+73            <meta-data
+73-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Venkkat\.gradle\caches\9.2.1\transforms\a4596f1a92ac861de09bff6bbf1c0cfe\workspace\transformed\profileinstaller-1.3.1\AndroidManifest.xml:29:13-31:52
+74                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+74-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Venkkat\.gradle\caches\9.2.1\transforms\a4596f1a92ac861de09bff6bbf1c0cfe\workspace\transformed\profileinstaller-1.3.1\AndroidManifest.xml:30:17-85
+75                android:value="androidx.startup" />
+75-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Venkkat\.gradle\caches\9.2.1\transforms\a4596f1a92ac861de09bff6bbf1c0cfe\workspace\transformed\profileinstaller-1.3.1\AndroidManifest.xml:31:17-49
+76        </provider>
+77
+78        <service
+78-->[com.google.firebase:firebase-storage-ktx:21.0.0] C:\Users\Venkkat\.gradle\caches\9.2.1\transforms\8b4b3a8c7571a5ff5e7868252fe7a674\workspace\transformed\firebase-storage-ktx-21.0.0\AndroidManifest.xml:9:9-15:19
+79            android:name="com.google.firebase.components.ComponentDiscoveryService"
+79-->[com.google.firebase:firebase-storage-ktx:21.0.0] C:\Users\Venkkat\.gradle\caches\9.2.1\transforms\8b4b3a8c7571a5ff5e7868252fe7a674\workspace\transformed\firebase-storage-ktx-21.0.0\AndroidManifest.xml:10:13-84
+80            android:directBootAware="true"
+80-->[com.google.firebase:firebase-common:21.0.0] C:\Users\Venkkat\.gradle\caches\9.2.1\transforms\fe09f8d1ae3a20a333dff77d82f78db8\workspace\transformed\firebase-common-21.0.0\AndroidManifest.xml:32:13-43
+81            android:exported="false" >
+81-->[com.google.firebase:firebase-storage-ktx:21.0.0] C:\Users\Venkkat\.gradle\caches\9.2.1\transforms\8b4b3a8c7571a5ff5e7868252fe7a674\workspace\transformed\firebase-storage-ktx-21.0.0\AndroidManifest.xml:11:13-37
+82            <meta-data
+82-->[com.google.firebase:firebase-storage-ktx:21.0.0] C:\Users\Venkkat\.gradle\caches\9.2.1\transforms\8b4b3a8c7571a5ff5e7868252fe7a674\workspace\transformed\firebase-storage-ktx-21.0.0\AndroidManifest.xml:12:13-14:85
+83                android:name="com.google.firebase.components:com.google.firebase.storage.ktx.FirebaseStorageLegacyRegistrar"
+83-->[com.google.firebase:firebase-storage-ktx:21.0.0] C:\Users\Venkkat\.gradle\caches\9.2.1\transforms\8b4b3a8c7571a5ff5e7868252fe7a674\workspace\transformed\firebase-storage-ktx-21.0.0\AndroidManifest.xml:13:17-125
+84                android:value="com.google.firebase.components.ComponentRegistrar" />
+84-->[com.google.firebase:firebase-storage-ktx:21.0.0] C:\Users\Venkkat\.gradle\caches\9.2.1\transforms\8b4b3a8c7571a5ff5e7868252fe7a674\workspace\transformed\firebase-storage-ktx-21.0.0\AndroidManifest.xml:14:17-82
+85            <meta-data
+85-->[com.google.firebase:firebase-firestore-ktx:25.0.0] C:\Users\Venkkat\.gradle\caches\9.2.1\transforms\867caa0e694e2b2c05599a04169f4d6c\workspace\transformed\firebase-firestore-ktx-25.0.0\AndroidManifest.xml:12:13-14:85
+86                android:name="com.google.firebase.components:com.google.firebase.firestore.ktx.FirebaseFirestoreLegacyRegistrar"
+86-->[com.google.firebase:firebase-firestore-ktx:25.0.0] C:\Users\Venkkat\.gradle\caches\9.2.1\transforms\867caa0e694e2b2c05599a04169f4d6c\workspace\transformed\firebase-firestore-ktx-25.0.0\AndroidManifest.xml:13:17-129
+87                android:value="com.google.firebase.components.ComponentRegistrar" />
+87-->[com.google.firebase:firebase-firestore-ktx:25.0.0] C:\Users\Venkkat\.gradle\caches\9.2.1\transforms\867caa0e694e2b2c05599a04169f4d6c\workspace\transformed\firebase-firestore-ktx-25.0.0\AndroidManifest.xml:14:17-82
+88            <meta-data
+88-->[com.google.firebase:firebase-storage:21.0.0] C:\Users\Venkkat\.gradle\caches\9.2.1\transforms\c0af61371aeb0ecb4308e5171303195d\workspace\transformed\firebase-storage-21.0.0\AndroidManifest.xml:30:13-32:85
+89                android:name="com.google.firebase.components:com.google.firebase.storage.FirebaseStorageKtxRegistrar"
+89-->[com.google.firebase:firebase-storage:21.0.0] C:\Users\Venkkat\.gradle\caches\9.2.1\transforms\c0af61371aeb0ecb4308e5171303195d\workspace\transformed\firebase-storage-21.0.0\AndroidManifest.xml:31:17-118
+90                android:value="com.google.firebase.components.ComponentRegistrar" />
+90-->[com.google.firebase:firebase-storage:21.0.0] C:\Users\Venkkat\.gradle\caches\9.2.1\transforms\c0af61371aeb0ecb4308e5171303195d\workspace\transformed\firebase-storage-21.0.0\AndroidManifest.xml:32:17-82
+91            <meta-data
+91-->[com.google.firebase:firebase-storage:21.0.0] C:\Users\Venkkat\.gradle\caches\9.2.1\transforms\c0af61371aeb0ecb4308e5171303195d\workspace\transformed\firebase-storage-21.0.0\AndroidManifest.xml:33:13-35:85
+92                android:name="com.google.firebase.components:com.google.firebase.storage.StorageRegistrar"
+92-->[com.google.firebase:firebase-storage:21.0.0] C:\Users\Venkkat\.gradle\caches\9.2.1\transforms\c0af61371aeb0ecb4308e5171303195d\workspace\transformed\firebase-storage-21.0.0\AndroidManifest.xml:34:17-107
+93                android:value="com.google.firebase.components.ComponentRegistrar" />
+93-->[com.google.firebase:firebase-storage:21.0.0] C:\Users\Venkkat\.gradle\caches\9.2.1\transforms\c0af61371aeb0ecb4308e5171303195d\workspace\transformed\firebase-storage-21.0.0\AndroidManifest.xml:35:17-82
+94            <meta-data
+94-->[com.google.firebase:firebase-firestore:25.0.0] C:\Users\Venkkat\.gradle\caches\9.2.1\transforms\0547a4a2a4c835f714c2c5158ce26263\workspace\transformed\firebase-firestore-25.0.0\AndroidManifest.xml:17:13-19:85
+95                android:name="com.google.firebase.components:com.google.firebase.firestore.FirebaseFirestoreKtxRegistrar"
+95-->[com.google.firebase:firebase-firestore:25.0.0] C:\Users\Venkkat\.gradle\caches\9.2.1\transforms\0547a4a2a4c835f714c2c5158ce26263\workspace\transformed\firebase-firestore-25.0.0\AndroidManifest.xml:18:17-122
+96                android:value="com.google.firebase.components.ComponentRegistrar" />
+96-->[com.google.firebase:firebase-firestore:25.0.0] C:\Users\Venkkat\.gradle\caches\9.2.1\transforms\0547a4a2a4c835f714c2c5158ce26263\workspace\transformed\firebase-firestore-25.0.0\AndroidManifest.xml:19:17-82
+97            <meta-data
+97-->[com.google.firebase:firebase-firestore:25.0.0] C:\Users\Venkkat\.gradle\caches\9.2.1\transforms\0547a4a2a4c835f714c2c5158ce26263\workspace\transformed\firebase-firestore-25.0.0\AndroidManifest.xml:20:13-22:85
+98                android:name="com.google.firebase.components:com.google.firebase.firestore.FirestoreRegistrar"
+98-->[com.google.firebase:firebase-firestore:25.0.0] C:\Users\Venkkat\.gradle\caches\9.2.1\transforms\0547a4a2a4c835f714c2c5158ce26263\workspace\transformed\firebase-firestore-25.0.0\AndroidManifest.xml:21:17-111
+99                android:value="com.google.firebase.components.ComponentRegistrar" />
+99-->[com.google.firebase:firebase-firestore:25.0.0] C:\Users\Venkkat\.gradle\caches\9.2.1\transforms\0547a4a2a4c835f714c2c5158ce26263\workspace\transformed\firebase-firestore-25.0.0\AndroidManifest.xml:22:17-82
+100            <meta-data
+100-->[com.google.firebase:firebase-appcheck:18.0.0] C:\Users\Venkkat\.gradle\caches\9.2.1\transforms\a539825fc006674a20c0f66c9d30cb7d\workspace\transformed\firebase-appcheck-18.0.0\AndroidManifest.xml:25:13-27:85
+101                android:name="com.google.firebase.components:com.google.firebase.appcheck.FirebaseAppCheckKtxRegistrar"
+101-->[com.google.firebase:firebase-appcheck:18.0.0] C:\Users\Venkkat\.gradle\caches\9.2.1\transforms\a539825fc006674a20c0f66c9d30cb7d\workspace\transformed\firebase-appcheck-18.0.0\AndroidManifest.xml:26:17-120
+102                android:value="com.google.firebase.components.ComponentRegistrar" />
+102-->[com.google.firebase:firebase-appcheck:18.0.0] C:\Users\Venkkat\.gradle\caches\9.2.1\transforms\a539825fc006674a20c0f66c9d30cb7d\workspace\transformed\firebase-appcheck-18.0.0\AndroidManifest.xml:27:17-82
+103            <meta-data
+103-->[com.google.firebase:firebase-appcheck:18.0.0] C:\Users\Venkkat\.gradle\caches\9.2.1\transforms\a539825fc006674a20c0f66c9d30cb7d\workspace\transformed\firebase-appcheck-18.0.0\AndroidManifest.xml:28:13-30:85
+104                android:name="com.google.firebase.components:com.google.firebase.appcheck.FirebaseAppCheckRegistrar"
+104-->[com.google.firebase:firebase-appcheck:18.0.0] C:\Users\Venkkat\.gradle\caches\9.2.1\transforms\a539825fc006674a20c0f66c9d30cb7d\workspace\transformed\firebase-appcheck-18.0.0\AndroidManifest.xml:29:17-117
+105                android:value="com.google.firebase.components.ComponentRegistrar" />
+105-->[com.google.firebase:firebase-appcheck:18.0.0] C:\Users\Venkkat\.gradle\caches\9.2.1\transforms\a539825fc006674a20c0f66c9d30cb7d\workspace\transformed\firebase-appcheck-18.0.0\AndroidManifest.xml:30:17-82
+106            <meta-data
+106-->[com.google.firebase:firebase-common-ktx:21.0.0] C:\Users\Venkkat\.gradle\caches\9.2.1\transforms\8057f246480054163d2ffb8c1761c9a0\workspace\transformed\firebase-common-ktx-21.0.0\AndroidManifest.xml:12:13-14:85
+107                android:name="com.google.firebase.components:com.google.firebase.ktx.FirebaseCommonLegacyRegistrar"
+107-->[com.google.firebase:firebase-common-ktx:21.0.0] C:\Users\Venkkat\.gradle\caches\9.2.1\transforms\8057f246480054163d2ffb8c1761c9a0\workspace\transformed\firebase-common-ktx-21.0.0\AndroidManifest.xml:13:17-116
+108                android:value="com.google.firebase.components.ComponentRegistrar" />
+108-->[com.google.firebase:firebase-common-ktx:21.0.0] C:\Users\Venkkat\.gradle\caches\9.2.1\transforms\8057f246480054163d2ffb8c1761c9a0\workspace\transformed\firebase-common-ktx-21.0.0\AndroidManifest.xml:14:17-82
+109            <meta-data
+109-->[com.google.firebase:firebase-common:21.0.0] C:\Users\Venkkat\.gradle\caches\9.2.1\transforms\fe09f8d1ae3a20a333dff77d82f78db8\workspace\transformed\firebase-common-21.0.0\AndroidManifest.xml:35:13-37:85
+110                android:name="com.google.firebase.components:com.google.firebase.FirebaseCommonKtxRegistrar"
+110-->[com.google.firebase:firebase-common:21.0.0] C:\Users\Venkkat\.gradle\caches\9.2.1\transforms\fe09f8d1ae3a20a333dff77d82f78db8\workspace\transformed\firebase-common-21.0.0\AndroidManifest.xml:36:17-109
+111                android:value="com.google.firebase.components.ComponentRegistrar" />
+111-->[com.google.firebase:firebase-common:21.0.0] C:\Users\Venkkat\.gradle\caches\9.2.1\transforms\fe09f8d1ae3a20a333dff77d82f78db8\workspace\transformed\firebase-common-21.0.0\AndroidManifest.xml:37:17-82
+112        </service>
+113
+114        <provider
+114-->[com.google.firebase:firebase-common:21.0.0] C:\Users\Venkkat\.gradle\caches\9.2.1\transforms\fe09f8d1ae3a20a333dff77d82f78db8\workspace\transformed\firebase-common-21.0.0\AndroidManifest.xml:23:9-28:39
+115            android:name="com.google.firebase.provider.FirebaseInitProvider"
+115-->[com.google.firebase:firebase-common:21.0.0] C:\Users\Venkkat\.gradle\caches\9.2.1\transforms\fe09f8d1ae3a20a333dff77d82f78db8\workspace\transformed\firebase-common-21.0.0\AndroidManifest.xml:24:13-77
+116            android:authorities="com.example.rapidtech.firebaseinitprovider"
+116-->[com.google.firebase:firebase-common:21.0.0] C:\Users\Venkkat\.gradle\caches\9.2.1\transforms\fe09f8d1ae3a20a333dff77d82f78db8\workspace\transformed\firebase-common-21.0.0\AndroidManifest.xml:25:13-72
+117            android:directBootAware="true"
+117-->[com.google.firebase:firebase-common:21.0.0] C:\Users\Venkkat\.gradle\caches\9.2.1\transforms\fe09f8d1ae3a20a333dff77d82f78db8\workspace\transformed\firebase-common-21.0.0\AndroidManifest.xml:26:13-43
+118            android:exported="false"
+118-->[com.google.firebase:firebase-common:21.0.0] C:\Users\Venkkat\.gradle\caches\9.2.1\transforms\fe09f8d1ae3a20a333dff77d82f78db8\workspace\transformed\firebase-common-21.0.0\AndroidManifest.xml:27:13-37
+119            android:initOrder="100" />
+119-->[com.google.firebase:firebase-common:21.0.0] C:\Users\Venkkat\.gradle\caches\9.2.1\transforms\fe09f8d1ae3a20a333dff77d82f78db8\workspace\transformed\firebase-common-21.0.0\AndroidManifest.xml:28:13-36
+120
+121        <service
+121-->[androidx.room:room-runtime:2.6.1] C:\Users\Venkkat\.gradle\caches\9.2.1\transforms\d1a699d85af39745a6102839d5d96195\workspace\transformed\room-runtime-2.6.1\AndroidManifest.xml:24:9-28:63
+122            android:name="androidx.room.MultiInstanceInvalidationService"
+122-->[androidx.room:room-runtime:2.6.1] C:\Users\Venkkat\.gradle\caches\9.2.1\transforms\d1a699d85af39745a6102839d5d96195\workspace\transformed\room-runtime-2.6.1\AndroidManifest.xml:25:13-74
+123            android:directBootAware="true"
+123-->[androidx.room:room-runtime:2.6.1] C:\Users\Venkkat\.gradle\caches\9.2.1\transforms\d1a699d85af39745a6102839d5d96195\workspace\transformed\room-runtime-2.6.1\AndroidManifest.xml:26:13-43
+124            android:exported="false" />
+124-->[androidx.room:room-runtime:2.6.1] C:\Users\Venkkat\.gradle\caches\9.2.1\transforms\d1a699d85af39745a6102839d5d96195\workspace\transformed\room-runtime-2.6.1\AndroidManifest.xml:27:13-37
+125
+126        <activity
+126-->[com.google.android.gms:play-services-base:18.1.0] C:\Users\Venkkat\.gradle\caches\9.2.1\transforms\a33590827c54acf50b4e0f2f293ee731\workspace\transformed\play-services-base-18.1.0\AndroidManifest.xml:20:9-22:45
+127            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+127-->[com.google.android.gms:play-services-base:18.1.0] C:\Users\Venkkat\.gradle\caches\9.2.1\transforms\a33590827c54acf50b4e0f2f293ee731\workspace\transformed\play-services-base-18.1.0\AndroidManifest.xml:20:19-85
+128            android:exported="false"
+128-->[com.google.android.gms:play-services-base:18.1.0] C:\Users\Venkkat\.gradle\caches\9.2.1\transforms\a33590827c54acf50b4e0f2f293ee731\workspace\transformed\play-services-base-18.1.0\AndroidManifest.xml:22:19-43
+129            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+129-->[com.google.android.gms:play-services-base:18.1.0] C:\Users\Venkkat\.gradle\caches\9.2.1\transforms\a33590827c54acf50b4e0f2f293ee731\workspace\transformed\play-services-base-18.1.0\AndroidManifest.xml:21:19-78
+130
+131        <meta-data
+131-->[com.google.android.gms:play-services-basement:18.3.0] C:\Users\Venkkat\.gradle\caches\9.2.1\transforms\620cf417fc2b33623a74a5cd21ce7f46\workspace\transformed\play-services-basement-18.3.0\AndroidManifest.xml:21:9-23:69
+132            android:name="com.google.android.gms.version"
+132-->[com.google.android.gms:play-services-basement:18.3.0] C:\Users\Venkkat\.gradle\caches\9.2.1\transforms\620cf417fc2b33623a74a5cd21ce7f46\workspace\transformed\play-services-basement-18.3.0\AndroidManifest.xml:22:13-58
+133            android:value="@integer/google_play_services_version" />
+133-->[com.google.android.gms:play-services-basement:18.3.0] C:\Users\Venkkat\.gradle\caches\9.2.1\transforms\620cf417fc2b33623a74a5cd21ce7f46\workspace\transformed\play-services-basement-18.3.0\AndroidManifest.xml:23:13-66
+134
+135        <receiver
+135-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Venkkat\.gradle\caches\9.2.1\transforms\a4596f1a92ac861de09bff6bbf1c0cfe\workspace\transformed\profileinstaller-1.3.1\AndroidManifest.xml:34:9-52:20
+136            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+136-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Venkkat\.gradle\caches\9.2.1\transforms\a4596f1a92ac861de09bff6bbf1c0cfe\workspace\transformed\profileinstaller-1.3.1\AndroidManifest.xml:35:13-76
+137            android:directBootAware="false"
+137-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Venkkat\.gradle\caches\9.2.1\transforms\a4596f1a92ac861de09bff6bbf1c0cfe\workspace\transformed\profileinstaller-1.3.1\AndroidManifest.xml:36:13-44
+138            android:enabled="true"
+138-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Venkkat\.gradle\caches\9.2.1\transforms\a4596f1a92ac861de09bff6bbf1c0cfe\workspace\transformed\profileinstaller-1.3.1\AndroidManifest.xml:37:13-35
+139            android:exported="true"
+139-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Venkkat\.gradle\caches\9.2.1\transforms\a4596f1a92ac861de09bff6bbf1c0cfe\workspace\transformed\profileinstaller-1.3.1\AndroidManifest.xml:38:13-36
+140            android:permission="android.permission.DUMP" >
+140-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Venkkat\.gradle\caches\9.2.1\transforms\a4596f1a92ac861de09bff6bbf1c0cfe\workspace\transformed\profileinstaller-1.3.1\AndroidManifest.xml:39:13-57
+141            <intent-filter>
+141-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Venkkat\.gradle\caches\9.2.1\transforms\a4596f1a92ac861de09bff6bbf1c0cfe\workspace\transformed\profileinstaller-1.3.1\AndroidManifest.xml:40:13-42:29
+142                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+142-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Venkkat\.gradle\caches\9.2.1\transforms\a4596f1a92ac861de09bff6bbf1c0cfe\workspace\transformed\profileinstaller-1.3.1\AndroidManifest.xml:41:17-91
+142-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Venkkat\.gradle\caches\9.2.1\transforms\a4596f1a92ac861de09bff6bbf1c0cfe\workspace\transformed\profileinstaller-1.3.1\AndroidManifest.xml:41:25-88
+143            </intent-filter>
+144            <intent-filter>
+144-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Venkkat\.gradle\caches\9.2.1\transforms\a4596f1a92ac861de09bff6bbf1c0cfe\workspace\transformed\profileinstaller-1.3.1\AndroidManifest.xml:43:13-45:29
+145                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+145-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Venkkat\.gradle\caches\9.2.1\transforms\a4596f1a92ac861de09bff6bbf1c0cfe\workspace\transformed\profileinstaller-1.3.1\AndroidManifest.xml:44:17-85
+145-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Venkkat\.gradle\caches\9.2.1\transforms\a4596f1a92ac861de09bff6bbf1c0cfe\workspace\transformed\profileinstaller-1.3.1\AndroidManifest.xml:44:25-82
+146            </intent-filter>
+147            <intent-filter>
+147-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Venkkat\.gradle\caches\9.2.1\transforms\a4596f1a92ac861de09bff6bbf1c0cfe\workspace\transformed\profileinstaller-1.3.1\AndroidManifest.xml:46:13-48:29
+148                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+148-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Venkkat\.gradle\caches\9.2.1\transforms\a4596f1a92ac861de09bff6bbf1c0cfe\workspace\transformed\profileinstaller-1.3.1\AndroidManifest.xml:47:17-88
+148-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Venkkat\.gradle\caches\9.2.1\transforms\a4596f1a92ac861de09bff6bbf1c0cfe\workspace\transformed\profileinstaller-1.3.1\AndroidManifest.xml:47:25-85
+149            </intent-filter>
+150            <intent-filter>
+150-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Venkkat\.gradle\caches\9.2.1\transforms\a4596f1a92ac861de09bff6bbf1c0cfe\workspace\transformed\profileinstaller-1.3.1\AndroidManifest.xml:49:13-51:29
+151                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+151-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Venkkat\.gradle\caches\9.2.1\transforms\a4596f1a92ac861de09bff6bbf1c0cfe\workspace\transformed\profileinstaller-1.3.1\AndroidManifest.xml:50:17-95
+151-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Venkkat\.gradle\caches\9.2.1\transforms\a4596f1a92ac861de09bff6bbf1c0cfe\workspace\transformed\profileinstaller-1.3.1\AndroidManifest.xml:50:25-92
+152            </intent-filter>
+153        </receiver>
+154    </application>
+155
+156</manifest>
